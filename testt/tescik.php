@@ -1,3 +1,3 @@
 <?php
-echo "dzien dobryyyyyy";
+echo "dzien dobryyyymorda";
 
