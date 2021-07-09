@@ -1,0 +1,21 @@
+version: '3'
+services:
+    oop-php:
+        image: php-jk:apache-pdo
+        ports:
+        - 4080:80
+        volumes:
+        - C:\Users\jakub.kuziola\Desktop\nauka php\oop\:/var/www/html
+    shipdb:
+            image: mysql:8
+            restart: always
+            # command: --default-authentication-plugin=mysql_native_password
+            ports:
+                - 33306:3306
+            volumes:
+                - C:\Users\jakub.kuziola\Desktop\nauka php\oop\shipdb:/var/lib/mysql
+            environment: 
+                MYSQL_ROOT_PASSWORD: hhhh
+                MYSQL_DATABASE: shipsdb
+                MYSQL_USER: user
+                MYSQL_PASSWORD: ekliwhgcgbfiwhfruehvbfw

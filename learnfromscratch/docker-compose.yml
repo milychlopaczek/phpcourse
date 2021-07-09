@@ -1,0 +1,21 @@
+version: '3'
+services:
+    http-learnfromscratch:
+        image: php-jk:apache-pdo
+        ports:
+        - 8080:80
+        volumes:
+        - C:\Users\jakub.kuziola\Desktop\nauka php\learnfromscratch\:/var/www/html
+    db:
+        image: mysql:8
+        restart: always
+        # command: --default-authentication-plugin=mysql_native_password
+        ports:
+            - 3306:3306
+        volumes:
+            - C:\Users\jakub.kuziola\Desktop\nauka php\learnfromscratch\db:/var/lib/mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: tgyfvaeohqugfteqr
+            MYSQL_DATABASE: bazadanych
+            MYSQL_USER: user
+            MYSQL_PASSWORD: ekliwhgcgbfiwhfruehvbfwjvglfrh

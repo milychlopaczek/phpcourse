@@ -1,0 +1,62 @@
+[
+    {
+        "pet_id": "1",
+        "0": "1",
+        "name": "oskar",
+        "1": "oskar",
+        "bio": "warczy krzyczy i jest ogolnie mierny",
+        "2": "warczy krzyczy i jest ogolnie mierny",
+        "weight": "15",
+        "3": "15",
+        "breed": "jamnik",
+        "4": "jamnik"
+    },
+    {
+        "pet_id": "2",
+        "0": "2",
+        "name": "puszek",
+        "1": "puszek",
+        "bio": "mily i spokojny kotek",
+        "2": "mily i spokojny kotek",
+        "weight": "10",
+        "3": "10",
+        "breed": "brukowiec",
+        "4": "brukowiec"
+    },
+    {
+        "pet_id": "3",
+        "0": "3",
+        "name": "katus",
+        "1": "katus",
+        "bio": "troche pali",
+        "2": "troche pali",
+        "weight": "100",
+        "3": "100",
+        "breed": "roslina pustynna",
+        "4": "roslina pustynna"
+    },
+    {
+        "pet_id": "4",
+        "0": "4",
+        "name": "rudolf",
+        "1": "rudolf",
+        "bio": "masywny jest",
+        "2": "masywny jest",
+        "weight": "300",
+        "3": "300",
+        "breed": "bulldog",
+        "4": "bulldog"
+    },
+    {
+        "pet_id": "5",
+        "0": "5",
+        "name": "leon",
+        "1": "leon",
+        "bio": "wigorowy mlody kotek z energia do zabawy!",
+        "2": "wigorowy mlody kotek z energia do zabawy!",
+        "weight": "15",
+        "3": "15",
+        "breed": "kot alpejski",
+        "4": "kot alpejski"
+    }
+]

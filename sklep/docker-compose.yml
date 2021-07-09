@@ -1,0 +1,8 @@
+version: '3'
+services:
+  http-sklep:
+    image: php:apache
+    ports:
+      - 7070:80
+    volumes:
+      - C:\Users\jakub.kuziola\Desktop\nauka php\sklep:/var/www/html
